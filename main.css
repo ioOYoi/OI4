@@ -1,0 +1,41 @@
+/* (1) 设置 body 部分的背景颜色 */
+body {
+    background-color: #F9F4F0;
+}
+
+/* (2) 设置 header 部分 */
+header {
+    height: 60px;
+    line-height: 60px;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3); /* 使用rgba设置透明度 */
+    overflow: hidden; /* 溢出隐藏 */
+}
+
+/* (3) 设置 main 部分的宽度 */
+main {
+    width: 1200px;
+}
+
+/* (4) 设置 header 中 nav 的 li 后代元素 */
+header nav li {
+    width: 100px;
+    text-align: center;
+    display: inline-block; /* 确保 li 元素水平排列 */
+}
+
+/* (5) 设置 footer 标签 */
+footer {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(128, 128, 0); /* 前景色 */
+    background: linear-gradient(to right, rgb(210, 180, 140), rgb(253, 245, 230), rgb(210, 180, 140)); /* 背景线性渐变 */
+    padding: 10px 0; /* 添加内边距以增加高度 */
+}
+
+/* (6) 设置 footer 中的 a 标签 */
+footer a {
+    color: SaddleBrown;
+    text-decoration: none; /* 可选：去掉下划线 */
+}

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: '三极行楷简体';
+    src: url("三极行楷简体-粗.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+section h2 {
+    width: 110px;
+    height: 110px;
+    font-family: '三极行楷简体';
+    text-align: center;
+    line-height: 100px;
+    color: #6e4f54;
+    background-image: url('h2BG.png');
+    background-repeat: no-repeat;
+    background-size: 110px auto;
+}
+
+#guidance {
+    height: 450px;
+    color: black;
+    font-family: '华文新魏', '隶书', '黑体';
+    text-align: center;
+}
+
+#guidance div {
+    width: 500px;
+
+}
+
+#guidance div h1 {
+    letter-spacing: 10px;
+}
+
+#guidance div h3 {
+    line-height: 30px;
+}
+
+#guidance a {
+    font-size: 24px;
+    color: inherit;
+}
+
+.nav2 ul {
+    width: 500px;
+}
+
+.nav2 ul li {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #c7d2d4;
+}
